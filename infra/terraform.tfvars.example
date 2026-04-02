@@ -1,0 +1,10 @@
+region           = "us-east-1"
+repo_name        = "fastapi-app"
+container_image  = "your-ecr-image"
+
+vpc_id = "vpc-xxxx"
+
+public_subnets = ["subnet-xxxx", "subnet-xxxx"]
+private_subnets = ["subnet-xxxx"]
+
+certificate_arn = ""
